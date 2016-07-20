@@ -95,6 +95,23 @@ const { get } = require('bwindow')
 
 <!-- Section from "doc/guides/02.Usage.md.hbs" End -->
 
+<!-- Section from "doc/guides/03.Functions.md.hbs" Start -->
+
+<a name="section-doc-guides-03-functions-md"></a>
+
+Functions
+---------
+
+Available functions
+
+| Signature | Description |
+| ---- | ----------- |
+| `get(name, options, options.strict) -> ?Object` | Get object from window |
+| `once(event, handler) -> function` | Bind window event once |
+
+
+<!-- Section from "doc/guides/03.Functions.md.hbs" End -->
+
 
 <!-- Sections Start -->
 

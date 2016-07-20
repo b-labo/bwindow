@@ -1,6 +1,6 @@
 {
   "name": "bwindow",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Browser window accessor",
   "main": "lib",
   "browser": "sims/browser",
@@ -22,10 +22,11 @@
   "homepage": "https://github.com/b-labo/bwindow#readme",
   "dependencies": {},
   "devDependencies": {
-    "co": "^4.6.0",
     "ababel": "^1.0.18",
     "ababel-es2015": "^1.0.1",
+    "aglob": "^1.0.1",
     "ape-covering": "^3.0.3",
+    "ape-doc": "^2.0.4",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.2",
     "ape-reporting": "^3.0.1",
@@ -33,6 +34,7 @@
     "ape-testing": "^4.0.1",
     "ape-tmpl": "^5.0.13",
     "ape-updating": "^4.0.4",
+    "co": "^4.6.0",
     "coz": "^6.0.14",
     "injectmock": "^2.0.0"
   },
