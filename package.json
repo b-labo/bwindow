@@ -1,8 +1,9 @@
 {
   "name": "bwindow",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Browser window accessor",
   "main": "lib",
+  "browser": "sims/browser",
   "scripts": {
     "test": "./ci/test.js",
     "prepublish": "./ci/build.js && ./ci/browser.js"
@@ -19,8 +20,7 @@
     "url": "https://github.com/b-labo/bwindow/issues"
   },
   "homepage": "https://github.com/b-labo/bwindow#readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "co": "^4.6.0",
     "ababel": "^1.0.18",
