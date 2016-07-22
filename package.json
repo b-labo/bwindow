@@ -25,6 +25,7 @@
     "ababel": "^1.0.19",
     "ababel-es2015": "^1.0.2",
     "aglob": "^1.0.1",
+    "amocha": "^1.0.8",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.2",
