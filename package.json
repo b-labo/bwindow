@@ -1,6 +1,6 @@
 {
   "name": "bwindow",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Browser window accessor",
   "main": "lib",
   "browser": "sims/browser",
