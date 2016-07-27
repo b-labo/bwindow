@@ -132,6 +132,8 @@ This software is released under the [MIT License](https://github.com/b-labo/bwin
 Links
 ------
 
++ [b-labo][b_labo_url]
 
+[b_labo_url]: https://github.com/b-labo
 
 <!-- Links End -->
