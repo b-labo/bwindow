@@ -1,6 +1,6 @@
 {
   "name": "bwindow",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Browser window accessor",
   "main": "lib",
   "browser": "shim/browser",
