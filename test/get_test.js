@@ -14,7 +14,10 @@ describe('get', function () {
 
   before(() => co(function * () {
     injectmock(global, 'window', {
-      document: {}
+      document: {},
+      location: {
+        href: 'http://example.com:3000/foo/bar'
+      }
     })
   }))
 
@@ -25,6 +28,11 @@ describe('get', function () {
   it('Get', () => co(function * () {
     assert.ok(get('document', { strict: true }))
     assert.ok(!get('__unknown_prop__', { strict: false }))
+
+    {
+      let href = get('location.href')
+      assert.equal('http://example.com:3000/foo/bar', href)
+    }
   }))
 })
 
