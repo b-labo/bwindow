@@ -4,7 +4,7 @@
 
 'use strict'
 
-const { readmeMdBud } = require('ape-tmpl')
+const {readmeMdBud} = require('ape-tmpl')
 const {commentsInFile} = require('ape-doc')
 const aglob = require('aglob')
 const pkg = require('./package.json')
@@ -15,9 +15,6 @@ module.exports = readmeMdBud({
   sections: 'doc/guides/*.md.hbs',
   badges: {
     travis: true,
-    codeclimate: true,
-    codeclimateCoverage: true,
-    gemnasium: false,
     npm: true,
     standard: true
   },
@@ -33,7 +30,7 @@ module.exports = readmeMdBud({
           name: func.name,
           description: comments.description,
           params: comments.param,
-          returns: comments.returns && comments.returns[ 0 ]
+          returns: comments.returns && comments.returns[0]
         }
       })
   }
