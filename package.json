@@ -1,6 +1,6 @@
 {
   "name": "bwindow",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Browser window accessor",
   "main": "lib",
   "browser": "shim/browser",
@@ -22,7 +22,7 @@
   "homepage": "https://github.com/b-labo/bwindow#readme",
   "dependencies": {},
   "devDependencies": {
-    "ababel": "^5.0.0",
+    "ababel": "^5.0.3",
     "aglob": "^3.0.1",
     "amocha": "^5.0.0",
     "ape-doc": "^2.0.4",
